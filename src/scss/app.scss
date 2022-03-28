@@ -1,0 +1,59 @@
+@font-face {
+    
+    font-family: arlington;
+    src: url(../tipografia/kaiseitokumin_regular.ttf);
+
+}
+
+html {
+
+    font-size: 62.5%;
+    font-family: arlington;
+    background-color: black;
+    
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    margin-bottom: 5rem;
+
+    .header__titulo {
+
+        font-size: 3.5em;
+        margin: 2rem;
+        color: white;
+
+    }
+
+    .header__navegacion {
+
+        ul {
+    
+            list-style-type: none;
+    
+        }
+
+        li {
+
+            display: inline;
+            margin: 2rem;
+
+        }
+
+        a {
+
+            color: aqua;
+            text-decoration: none;
+            border-radius: 1%;
+            font-size: 2.5em;
+            padding: 3rem;
+
+        }
+
+    }
+
+}
